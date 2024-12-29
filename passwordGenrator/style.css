@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 150px auto 0px;
+}
+
+.container input{
+     
+    padding: 20px;
+    border: 2px solid black;
+    outline: none;
+    color: black;
+    margin: 10px;
+}
+.container button{
+    width: 12%;
+    padding: 8px;
+    position: absolute;
+    top: 60%;
+    left: 27%;
+}
